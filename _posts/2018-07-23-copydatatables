@@ -1,0 +1,12 @@
+
+
+
+#DT = data.table(A=5:1,B=letters[5:1])
+#DT2 = DT              # does not copy
+#setkey(DT2,B)         # does not copy-on-write to DT2
+#identical(DT,DT2)     # TRUE. DT and DT2 are two names for the same keyed table
+#
+#DT = data.table(A=5:1,B=letters[5:1])
+#DT2 = copy(DT)        # explicit copy() needed to copy a data.table
+#setkey(DT2,B)         # now just changes DT2
+#identical(DT,DT2)     # FALSE. DT and DT2 are now different tables
