@@ -4,7 +4,7 @@ title: Popups appear over a marker on mouse-over
 tags: [python, folium, markers,popup,geographical information]
 #image: /img/hello_world.jpeg
 ---
-For what we have learned a popup marker appear when we click on it. But is is possible the popup appears over a marker on mouse-over by modifiying the html code. I found the solution thanks to *Duc Vu* and this question in stackoverflow  <https://stackoverflow.com/questions/50614427/popup-appear-on-mouse-over-in-folium> . 
+For what we have learned a popup marker appears when we click on it. But is is possible the popup appears over a marker on mouse-over by modifiying the html code. I found the solution thanks to *Duc Vu* and this question in stackoverflow  <https://stackoverflow.com/questions/50614427/popup-appear-on-mouse-over-in-folium> . 
 
 ```python
 import folium
