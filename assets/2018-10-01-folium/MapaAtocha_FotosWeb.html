@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_a2145c0e64614c14bcab67add51982c1 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_a2145c0e64614c14bcab67add51982c1" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_a2145c0e64614c14bcab67add51982c1 = L.map(
+        'map_a2145c0e64614c14bcab67add51982c1', {
+        center: [40.41829, -3.694726],
+        zoom: 13,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_d5454ae01c90485683f71070a4323a20 = L.tileLayer(
+        'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_a2145c0e64614c14bcab67add51982c1);
+    
+        var marker_62b9bfb69f994d5b8624de017f0f7b3a = L.marker(
+            [40.407308, -3.690185],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_a2145c0e64614c14bcab67add51982c1);
+        
+    
+            var popup_92cc8667384d4d03b55ce38ce985a477 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_494bfd60853349ee9117e1beecfbf69d = $('<div id="html_494bfd60853349ee9117e1beecfbf69d" style="width: 100.0%; height: 100.0%;"><iframe id="inlineFrameExample"     title="Inline Frame Example"     width="300"     height="200"     src="http://www.adif.es/es_ES/infraestructuras/estaciones/60000/informacion_000070.shtml"> </iframe> </div>')[0];
+                popup_92cc8667384d4d03b55ce38ce985a477.setContent(html_494bfd60853349ee9117e1beecfbf69d);
+            
+
+            marker_62b9bfb69f994d5b8624de017f0f7b3a.bindPopup(popup_92cc8667384d4d03b55ce38ce985a477)
+            ;
+
+            
+        
+    
+        var marker_fd3395d668c14dbabb1207c74a57752c = L.marker(
+            [40.416416, -3.703636],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_a2145c0e64614c14bcab67add51982c1);
+        
+    
+            var popup_a12298004fef45ab918250bbc08d6e88 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_aeeb2e1d67bf4a559c1527eae1569ae3 = $('<div id="html_aeeb2e1d67bf4a559c1527eae1569ae3" style="width: 100.0%; height: 100.0%;"><img src="https://www.spain.info/export/sites/spaininfo/comun/carrusel-recursos/madrid/puerta-del-sol-madrid-71220719-istock.jpg_369272544.jpg" alt="Flowers in Chania" width="300" height="200" alt ="Foto sol"> </div>')[0];
+                popup_a12298004fef45ab918250bbc08d6e88.setContent(html_aeeb2e1d67bf4a559c1527eae1569ae3);
+            
+
+            marker_fd3395d668c14dbabb1207c74a57752c.bindPopup(popup_a12298004fef45ab918250bbc08d6e88)
+            ;
+
+            
+        
+</script>

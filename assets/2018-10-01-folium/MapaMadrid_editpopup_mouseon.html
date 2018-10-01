@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+
+    <style>#map_e3f56b5ee1284b97b4f972ac54ce1da7 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="folium-map" id="map_e3f56b5ee1284b97b4f972ac54ce1da7" ></div>
+</body>
+<script>
+
+
+        var bounds = null;
+
+
+    var map_e3f56b5ee1284b97b4f972ac54ce1da7 = L.map(
+        'map_e3f56b5ee1284b97b4f972ac54ce1da7', {
+        center: [40.41829, -3.694726],
+        zoom: 13,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+
+    var tile_layer_9ae9cd02ad034304b00650b12717b996 = L.tileLayer(
+        'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_e3f56b5ee1284b97b4f972ac54ce1da7);
+
+        var marker_725a7d8ce23c4acda468bc0616c46398 = L.marker(
+            [40.407308, -3.690185],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e3f56b5ee1284b97b4f972ac54ce1da7);
+
+
+            var popup_b4fd737d267b4c7094e00171e89ff0b2 = L.popup({maxWidth: '300'
+
+            });
+
+
+                var html_9315fb5b3ed64868b9c154f6d12d09b4 = $('<div id="html_9315fb5b3ed64868b9c154f6d12d09b4" style="width: 100.0%; height: 100.0%;">Atocha</div>')[0];
+                popup_b4fd737d267b4c7094e00171e89ff0b2.setContent(html_9315fb5b3ed64868b9c154f6d12d09b4);
+
+
+            marker_725a7d8ce23c4acda468bc0616c46398.bindPopup(popup_b4fd737d267b4c7094e00171e89ff0b2)
+marker_725a7d8ce23c4acda468bc0616c46398.on('mouseover', function (e) {this.openPopup();});
+marker_725a7d8ce23c4acda468bc0616c46398.on('mouseout', function (e) {this.closePopup();});
+            ;
+
+
+
+
+        var marker_2491ea3e9bc04e42a4458546421faf74 = L.marker(
+            [40.416416, -3.703636],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e3f56b5ee1284b97b4f972ac54ce1da7);
+
+
+            var popup_6e6ddeee978040fbb9641ca0aeb5498c = L.popup({maxWidth: '300'
+
+            });
+
+
+                var html_bac21fd0fa26442b913f2cd9d4114b30 = $('<div id="html_bac21fd0fa26442b913f2cd9d4114b30" style="width: 100.0%; height: 100.0%;">Sol</div>')[0];
+                popup_6e6ddeee978040fbb9641ca0aeb5498c.setContent(html_bac21fd0fa26442b913f2cd9d4114b30);
+
+
+            marker_2491ea3e9bc04e42a4458546421faf74.bindPopup(popup_6e6ddeee978040fbb9641ca0aeb5498c)
+marker_2491ea3e9bc04e42a4458546421faf74.on('mouseover', function (e) {this.openPopup();});
+marker_2491ea3e9bc04e42a4458546421faf74.on('mouseout', function (e) {this.closePopup();});
+            ;
+
+
+
+</script>

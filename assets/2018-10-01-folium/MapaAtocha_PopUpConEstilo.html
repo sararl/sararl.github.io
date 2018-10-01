@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_c923548a002b4830ac991462002cb312 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_c923548a002b4830ac991462002cb312" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_c923548a002b4830ac991462002cb312 = L.map(
+        'map_c923548a002b4830ac991462002cb312', {
+        center: [40.41829, -3.694726],
+        zoom: 13,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_32994e5813b5469db5dbe20a66814fd7 = L.tileLayer(
+        'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_c923548a002b4830ac991462002cb312);
+    
+        var marker_7756724266764e87823f95a974ceedf9 = L.marker(
+            [40.407308, -3.690185],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_c923548a002b4830ac991462002cb312);
+        
+    
+            var popup_7db8cbafb5584aada112484ac41b0619 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e98c0673f86b44658394f90554650c78 = $('<div id="html_e98c0673f86b44658394f90554650c78" style="width: 100.0%; height: 100.0%;">     <h2 style="font-family:verdana;">  Estación de atocha </h2>     <p>     La estación de Atocha es un complejo ferroviario situado en las cercanías de la plaza del     Emperador Carlos V, en Madrid, España. Hace las funciones de nudo ferroviario, y esto la      convierte en la estación con más tráfico de pasajeros del país.<br><br>     </p>     <p>     <h1>Información de horarios</h1>     <table style="width:80%">       <tr>         <th> Horario de la estación </th>         <th> Venta inmediata de billetes </th>                 </tr>       <tr>         <td>DIARIO: 05:00 A 01:00</td>         <td>DIARIO: 06:15 A 22:15</td>                </tr>       </table>     </p>     Click <a href="http://www.adif.es/es_ES/infraestructuras/estaciones/60000/informacion_000070.shtml">aqui</a> para tener más información.          </div>')[0];
+                popup_7db8cbafb5584aada112484ac41b0619.setContent(html_e98c0673f86b44658394f90554650c78);
+            
+
+            marker_7756724266764e87823f95a974ceedf9.bindPopup(popup_7db8cbafb5584aada112484ac41b0619)
+            ;
+
+            
+        
+</script>
