@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Popups appear over a marker on mouse-over 
+title: Make popups appear over a marker on mouse-over 
 tags: [python, folium, markers,popup,geographical information]
 #image: /img/hello_world.jpeg
 ---
