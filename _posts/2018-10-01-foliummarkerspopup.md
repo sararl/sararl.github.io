@@ -67,7 +67,7 @@ htmlcode = """
       </tr>
       </table>
     </p>
-    Click <a href="http://www.adif.es/es_ES/infraestructuras/estaciones/60000/informacion_000070.shtml">aqui</a> para tener más información.    
+    Click <a href="http://www.renfe.com">aqui</a> para tener más información.    
     """ 
 # create the marker
 markerEdit = folium.Marker(location=[40.407308, -3.690185]
