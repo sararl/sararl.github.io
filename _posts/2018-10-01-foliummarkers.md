@@ -28,7 +28,7 @@ map_Madrid
     title="Inline Frame Example"
     width="100%"
     height="400"
-    src="/assets/2019-10-01-folium/simpleMarker.html">
+    src="/assets/2018-10-01-folium/simpleMarker.html">
 </iframe>
 
 
@@ -51,7 +51,7 @@ map_Madrid
     title="Inline Frame Example"
     width="100%"
     height="400"
-    src="/assets/2019-10-01-folium/simpleMarker2.html">
+    src="/assets/2018-10-01-folium/simpleMarker2.html">
 </iframe>
 
 ### Change the drawing on the marker
@@ -83,7 +83,7 @@ map_Madrid
     title="Inline Frame Example"
     width="100%"
     height="400"
-    src="/assets/2019-10-01-folium/ChangeDrawing.html">
+    src="/assets/2018-10-01-folium/ChangeDrawing.html">
 </iframe>
 
 #### An image
@@ -113,7 +113,7 @@ mapa_Madrid
     title="Inline Frame Example"
     width="100%"
     height="400"
-    src="/assets/2019-10-01-folium/imageMap.html">
+    src="/assets/2018-10-01-folium/imageMap.html">
 </iframe>
 
 ### BeautifyIcon
@@ -146,6 +146,6 @@ map_Madrid
     title="Inline Frame Example"
     width="100%"
     height="400"
-    src="/assets/2019-10-01-folium/BeautifyIcon.html">
+    src="/assets/2018-10-01-folium/BeautifyIcon.html">
 </iframe>
 

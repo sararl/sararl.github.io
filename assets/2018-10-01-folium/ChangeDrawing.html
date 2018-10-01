@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_59f02a89b3964b9abbff90095a717818 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_59f02a89b3964b9abbff90095a717818" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_59f02a89b3964b9abbff90095a717818 = L.map(
+        'map_59f02a89b3964b9abbff90095a717818', {
+        center: [40.41829, -3.694726],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_c70d0391c9344f8dbe0444c5dafc78e3 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_59f02a89b3964b9abbff90095a717818);
+    
+        var marker_8a048ac6942e48a1a1e5c940447f5559 = L.marker(
+            [40.407308, -3.690185],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_59f02a89b3964b9abbff90095a717818);
+        
+    
+
+                var icon_7d085806b6074fde8932c5ca5b9e3737 = L.AwesomeMarkers.icon({
+                    icon: 'train',
+                    iconColor: '#E40EF2',
+                    markerColor: 'black',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8a048ac6942e48a1a1e5c940447f5559.setIcon(icon_7d085806b6074fde8932c5ca5b9e3737);
+            
+    
+            var popup_5022028da07b4933b54336d4d15cdf63 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_150d0112070944f1843dc765c0ea18a7 = $('<div id="html_150d0112070944f1843dc765c0ea18a7" style="width: 100.0%; height: 100.0%;">Madrid-Puerta de Atocha</div>')[0];
+                popup_5022028da07b4933b54336d4d15cdf63.setContent(html_150d0112070944f1843dc765c0ea18a7);
+            
+
+            marker_8a048ac6942e48a1a1e5c940447f5559.bindPopup(popup_5022028da07b4933b54336d4d15cdf63)
+            ;
+
+            
+        
+</script>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_6e75452792b6464ab8cf2bc62d929a21 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/marslan390/BeautifyMarker/master/leaflet-beautify-marker-icon.css"/>
+    <script src="https://cdn.rawgit.com/marslan390/BeautifyMarker/master/leaflet-beautify-marker-icon.js"></script>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_6e75452792b6464ab8cf2bc62d929a21" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_6e75452792b6464ab8cf2bc62d929a21 = L.map(
+        'map_6e75452792b6464ab8cf2bc62d929a21', {
+        center: [40.41829, -3.694726],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_563444ee40bd416cb3cf7c632e2a176e = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_6e75452792b6464ab8cf2bc62d929a21);
+    
+        var marker_61ab61c4ec434523adcae1e6b7d80587 = L.marker(
+            [40.407308, -3.690185],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_6e75452792b6464ab8cf2bc62d929a21);
+        
+    
+                var beautify_icon_70bce2e1aa7a4a8b9b2c9833e36cbc2c = new L.BeautifyIcon.icon({
+  "backgroundColor": "#FFF",
+  "borderColor": "#b3334f",
+  "borderWidth": 2,
+  "icon": "train",
+  "iconShape": "circle",
+  "innerIconStyle": "",
+  "isAlphaNumericIcon": false,
+  "spin": false,
+  "textColor": "#E40EF2"
+})
+                marker_61ab61c4ec434523adcae1e6b7d80587.setIcon(beautify_icon_70bce2e1aa7a4a8b9b2c9833e36cbc2c);
+            
+    
+            var popup_cb882f4570d74e488ec32cff66562875 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c01da30b944942cfa71a975798386618 = $('<div id="html_c01da30b944942cfa71a975798386618" style="width: 100.0%; height: 100.0%;">Madrid-Puerta de Atocha</div>')[0];
+                popup_cb882f4570d74e488ec32cff66562875.setContent(html_c01da30b944942cfa71a975798386618);
+            
+
+            marker_61ab61c4ec434523adcae1e6b7d80587.bindPopup(popup_cb882f4570d74e488ec32cff66562875)
+            ;
+
+            
+        
+</script>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_cc9c1a5caf22412f9439567407a50cb2 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_cc9c1a5caf22412f9439567407a50cb2" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_cc9c1a5caf22412f9439567407a50cb2 = L.map(
+        'map_cc9c1a5caf22412f9439567407a50cb2', {
+        center: [40.41829, -3.694726],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_ebf7728defe942bfb04dc1a9414a2265 = L.tileLayer(
+        'https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_cc9c1a5caf22412f9439567407a50cb2);
+    
+        var marker_95bdb33cfff54b9a8e7e981cfa9b2357 = L.marker(
+            [40.407308, -3.690185],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_cc9c1a5caf22412f9439567407a50cb2);
+        
+    
+            var popup_aea2c3f79ce947b8a6788f2105c5280c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_22fb236e594443a2a6adc4c66cb6ffc3 = $('<div id="html_22fb236e594443a2a6adc4c66cb6ffc3" style="width: 100.0%; height: 100.0%;">Madrid-Puerta de Atocha</div>')[0];
+                popup_aea2c3f79ce947b8a6788f2105c5280c.setContent(html_22fb236e594443a2a6adc4c66cb6ffc3);
+            
+
+            marker_95bdb33cfff54b9a8e7e981cfa9b2357.bindPopup(popup_aea2c3f79ce947b8a6788f2105c5280c)
+            ;
+
+            
+        
+</script>
